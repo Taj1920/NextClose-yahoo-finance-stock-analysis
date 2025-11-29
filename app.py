@@ -5,7 +5,7 @@ from config import stock_symbols,valid_periods,intervals,APP_NAME,APP_VERSION,DE
 from data import get_live_data
 from models import train_models,model_performance_report
 
-st.set_page_config(page_title=APP_NAME, layout="wide")
+st.set_page_config(page_title=APP_NAME, layout="wide",page_icon="assets/nextclose_logo.png")
 
 #sidebar --> inputs
 with st.sidebar:
